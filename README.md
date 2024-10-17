@@ -1,2 +1,0 @@
-# 19_DOM_Manipilasyonu
-19_DOM_Manipilasyonu
