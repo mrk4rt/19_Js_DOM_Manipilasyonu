@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM Üzerinde Gezinme Örnekleri</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+
+        h1 {
+            color: #2c3e50;
+        }
+
+        .konteyner {
+            border: 2px solid #3498db;
+            padding: 10px;
+            margin-top: 20px;
+        }
+
+        .gorev {
+            margin: 10px 0;
+            padding: 10px;
+            background-color: #ecf0f1;
+            border: 1px solid #bdc3c7;
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .buton {
+            background-color: #e74c3c;
+            color: white;
+            border: none;
+            padding: 5px 10px;
+            cursor: pointer;
+        }
+
+        .buton:hover {
+            background-color: #c0392b;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Görev Listesi</h1>
+    <div class="konteyner" id="gorevKonteyner">
+        <h2 id="baslik">Görevler</h2>
+        <div class="gorev">
+            <span>Görev 1</span>
+            <button class="buton">Sil</button>
+        </div>
+        <div class="gorev">
+            <span>Görev 2</span>
+            <button class="buton">Sil</button>
+        </div>
+        <div class="gorev">
+            <span>Görev 3</span>
+            <button class="buton">Sil</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
